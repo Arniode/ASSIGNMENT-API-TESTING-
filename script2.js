@@ -3,7 +3,7 @@ const container = document.getElementById('cardsContainer');
 const loading = document.getElementById('loading');
 const errorMsg = document.getElementById('error');
 
-// This function gets the data from the website
+// This function gets the data from my website
 async function getMyData() {
     try {
         const response = await fetch('https://jsonplaceholder.typicode.com/todos');
